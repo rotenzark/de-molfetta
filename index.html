@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
 <title>De Molfetta 1938 — Stile a misura d'uomo · Corso Vercelli 11, Milano</title>
 <meta name="description" content="De Molfetta, dal 1938 in Corso Vercelli a Milano: abbigliamento maschile e sartoria su misura, tre generazioni di una bottega storica. Camicie, giacche, maglieria e capi su misura. Chiama 02 463437.">
 <link rel="canonical" href="https://rotenzark.github.io/de-molfetta/">
@@ -15,9 +16,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script type="application/ld+json">
 {
@@ -32,23 +31,94 @@
       "telephone": "+3902463437",
       "priceRange": "€€€",
       "description": "Abbigliamento maschile e sartoria su misura dal 1938: camicie, giacche, maglieria, pantaloni e capi su misura.",
-      "address": { "@type": "PostalAddress", "streetAddress": "Corso Vercelli 11", "addressLocality": "Milano", "postalCode": "20144", "addressCountry": "IT" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 45.4661238, "longitude": 9.1629669 },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "30", "bestRating": "5" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Corso Vercelli 11",
+        "addressLocality": "Milano",
+        "postalCode": "20144",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.4661238,
+        "longitude": 9.1629669
+      },
       "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "15:00", "closes": "19:30" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "13:30" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "15:00", "closes": "19:30" }
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "15:00",
+          "closes": "19:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "13:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "15:00",
+          "closes": "19:30"
+        }
       ]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Fate capi su misura?", "acceptedAnswer": { "@type": "Answer", "text": "Sì: da tre generazioni realizziamo capi su misura con un'ampia selezione di tessuti di prima qualità, con la stessa passione di una volta e uno stile moderno." } },
-        { "@type": "Question", "name": "Cosa vendete oltre al su misura?", "acceptedAnswer": { "@type": "Answer", "text": "Un guardaroba maschile completo: camicie, giacche, maglieria, pantaloni e accessori dei migliori marchi del Made in Italy." } },
-        { "@type": "Question", "name": "Da quanto tempo esistete?", "acceptedAnswer": { "@type": "Answer", "text": "Dal 1938: siamo una bottega storica di Milano, in Corso Vercelli, portata avanti dalla stessa famiglia da tre generazioni." } },
-        { "@type": "Question", "name": "Che orari fate?", "acceptedAnswer": { "@type": "Answer", "text": "Lunedì 15–19:30; da martedì a sabato 10–13:30 e 15–19:30. Domenica chiuso." } },
-        { "@type": "Question", "name": "Dove siete?", "acceptedAnswer": { "@type": "Answer", "text": "In Corso Vercelli 11 a Milano, angolo Largo Settimio Severo." } }
+        {
+          "@type": "Question",
+          "name": "Fate capi su misura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì: da tre generazioni realizziamo capi su misura con un'ampia selezione di tessuti di prima qualità, con la stessa passione di una volta e uno stile moderno."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cosa vendete oltre al su misura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un guardaroba maschile completo: camicie, giacche, maglieria, pantaloni e accessori dei migliori marchi del Made in Italy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da quanto tempo esistete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dal 1938: siamo una bottega storica di Milano, in Corso Vercelli, portata avanti dalla stessa famiglia da tre generazioni."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Che orari fate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lunedì 15–19:30; da martedì a sabato 10–13:30 e 15–19:30. Domenica chiuso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove siete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Corso Vercelli 11 a Milano, angolo Largo Settimio Severo."
+          }
+        }
       ]
     }
   ]
@@ -187,7 +257,7 @@
     </div>
     <div class="dove-media">
       <div class="mappa reveal">
-        <iframe title="Mappa: De Molfetta, Corso Vercelli 11, Milano" src="https://www.google.com/maps?q=De+Molfetta,+Corso+Vercelli+11,+20144+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa: De Molfetta, Corso Vercelli 11, Milano" src="https://www.google.com/maps?q=De+Molfetta,+Corso+Vercelli+11,+20144+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/place/De+Molfetta/@45.4661238,9.1629669,17z" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </div>
   </section>
@@ -210,6 +280,7 @@
   <p class="foot-brand"><span class="brand-mono" aria-hidden="true">dM</span> De Molfetta 1938</p>
   <p data-i18n="foot.dove">Corso Vercelli 11, 20144 Milano · <a href="tel:+3902463437">02 463437</a></p>
   <p class="foot-demo" data-i18n="foot.demo">Sito dimostrativo (concept) realizzato da Bespoke Studio con dati e foto pubblici — non è il sito ufficiale dell'attività.</p>
+  <p class="privacy-link"><a href="privacy.html">Privacy</a></p>
 </footer>
 
 <div class="actionbar" id="actionBar">
@@ -226,5 +297,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=3" defer></script>
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
